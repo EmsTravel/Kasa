@@ -9,6 +9,8 @@ function ApartementGrid() {
       <Apartement/>
       <Apartement/>
       <Apartement/>
+      <Apartement/>
+      <Apartement/>
     </div>
   )
 }
