@@ -17,7 +17,6 @@ function Navbar() {
       <NavLink to='/about'>
         <div>Apropo</div>
       </NavLink>
-     
     </nav>
   );
 }

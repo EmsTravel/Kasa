@@ -1,3 +1,4 @@
+@use "../scss/variables.scss" as variables;
 .banner {
     position: relative;
     background-position: center;
@@ -9,7 +10,7 @@
     display: flex;
     place-items: center;
     justify-content: center;
-    color: white;
+    color: variables.$tertiary-color;
     margin-bottom: 2rem;
     background-image: url('https://picsum.photos/1920/1080');
     &::before {
