@@ -12,14 +12,13 @@
     color: white;
     margin-bottom: 2rem;
     background-image: url('https://picsum.photos/1920/1080');
-}
-
-.banner::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 0;
-    height: 100%;
-    opacity: 0.5;
+    &::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        opacity: 0.5;
+    }
 }

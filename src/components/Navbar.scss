@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 0 2rem;
+    color: var(--red);
+    font-family: 'Montserrat';
+    font-size: clamp(12px, 2.5vw, 24px);
+    &>*:first-child {
+        margin-right: auto;
+    }
+    & a {
+        text-decoration: none;
+        color: var(--red);
+    }
+    &.active {
+        text-decoration: underline;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}
