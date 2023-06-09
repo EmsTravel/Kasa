@@ -1,9 +1,10 @@
 import React from "react";
 import { createBrowserRouter,Outlet } from "react-router-dom";
-import App from "../App";
+import HomePage from "../pages/Homepage";
 import Footer from "../layout/Footer";
 import Main from "../layout/Main";
 import Navbar from "../components/Navbar";
+import ApartmentPage from "../pages/ApartmentPage";
 
 
 // layout created with Outlet
@@ -26,11 +27,11 @@ export const router = createBrowserRouter ([
       children:[
        { 
         path: "/",
-        element:<App/>
+        element:<HomePage />
     },
     {
         path: "/flat",
-        element:  <h1>Flats</h1>
+        element: <ApartmentPage />
     },   
     {
         path: "/about",
@@ -38,8 +39,6 @@ export const router = createBrowserRouter ([
     },
        
       ]
-
 },
-
-
+ 
 ]);
