@@ -5,6 +5,7 @@ import Footer from "../layout/Footer";
 import Main from "../layout/Main";
 import Navbar from "../components/Navbar";
 import ApartmentPage from "../pages/ApartmentPage";
+import About from "../pages/About";
 
 
 // layout created with Outlet
@@ -35,7 +36,7 @@ export const router = createBrowserRouter ([
     },   
     {
         path: "/about",
-        element:  <h1>A propos</h1>          
+        element:  <About />        
     },
        
       ]
